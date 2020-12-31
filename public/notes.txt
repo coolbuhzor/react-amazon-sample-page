@@ -1,0 +1,30 @@
+short cuts:
+racf = arrow class component function
+racfe = arrow class component function with export
+rcf = normal class component function
+rcfe = normal class component function with export
+
+in your index.js the class component name should start with a capital letter.
+
+
+
+//jsx rules
+//Return Single Element
+// div / section / Article or Fragment i.e coz we are returning single elements all tags and other elements should be in a div, section or React.Fragment. it is wrong to return to elements outside each other in a component.
+// use  camel case for html attributes.
+// className instead of class
+// close every tag. every single tag
+// formatting- it is advisable to use parenthesis () after the return key word even tho its not compulsory. if the parenthesis ain't included the html element opening tag would have to be on the same line with the return key
+
+***********************************NESTED COMPONENTS********************************************
+it is best to create different component for our react app. the component is then passed in to the main component that would be rendered on the page.
+
+***********************************CSS********************************************
+first of there are several ways in which we could write our css in react.
+1. which i think i prefer is creating a css file in the src folder i.e "index.css" then importing the css via the file path into your index.js i.e "import "./index.css".
+
+2. inline styling. they said it's easier to do the inline styling in react as it would help control and manage each element and component easily. using inline css, you would have to type your css as like you are typing js. the syntax for inline css is "style ={{color: 'green', fontSize: '1rem'}}".then type your css in camel case. the reason for the double curly braces is to create a js object. since the css is kinda like in js form, our values would have to be in quotes.
+
+3. before i forget in react css class is typed as "className"
+
+4. when importing js files into the index.js file, you dont need to add the '.js' extension but while importing css files the '.css' extension is needed 
